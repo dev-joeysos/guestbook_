@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>토이프로젝트_방명록</title>
+</head>
+<body>
+    <h1>방명록 작성하기</h1>
+    <form id="guestbook-form">
+        <input type="text" id="title" placeholder="제목" required><br>
+        <textarea id="content" placeholder="내용" required></textarea><br>
+        <input type="text" id="writer" placeholder="이름" required><br>
+        <input type="password" id="password" placeholder="비밀번호" required><br>
+        <button type="submit">게시</button>
+    </form>
+    <h1>방명록 로그</h1>
+    <ul id="entries"></ul>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #6BBEE2;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1, h2 {
+  color: #333;
+  margin: 10;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 60%;
+  margin-bottom: 15px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+form button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background: #28a745;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #218838;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 80%;
+}
+
+
+li {
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 20px; 
+  border: 1px solid #ccc;
+  border-radius: 10px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  display: flex;
+  flex-direction: column;
+}
+
+li h2 {
+  margin: 0 0 10px;
+  color: #007bff;
+}
+
+li h3 {
+  margin: 0 0 10px;
+  color: #555; 
+}
+
+li p {
+  margin: 5px 0;
+  color: #555;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+li button {
+  align-self: flex-end; 
+  padding: 10px 20px;
+  background: grey;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px; 
+}
+
+li button:hover {
+  background: red;
+}
